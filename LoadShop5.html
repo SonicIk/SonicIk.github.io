@@ -15,8 +15,9 @@
     function() {
         window.setTimeout(
             function() {
-                document.body.style.backgroundColor = 'yellow';
+                document.body.style.backgroundColor = 'black';
                 Unity.call('shop' ); 
+                history.back();
                 return false;
             },
             3000);
