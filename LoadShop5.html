@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Unity WebView</title>
+  </head>
+  <body onload="Unity.call('shop'); return false;">
+      <p>Loadingggg4</p>
+      <button onclick="Unity.call('shop' ); return false;">Click me</button>
+
+<p id="demo"></p>
+<script>
+      
+      window.addEventListener(
+    'load',
+    function() {
+        document.body.style.backgroundColor = 'yellow';
+        window.setTimeout(
+            function() {
+                Unity.call('shop' ); 
+                return false;
+                alert("hiahsdi");
+            },
+            3000);
+    });
+</script>
+      
+  </body>
+</html>
